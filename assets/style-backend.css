@@ -1,0 +1,83 @@
+body {
+	font: 20px Montserrat, sans-serif;
+	background: #f5f5f5;
+}
+
+#nav_sidebar{
+  position: fixed;
+  z-index: 2;
+  width: 250px;
+  height: 100%;
+  background: #252839;
+  padding: 0;
+  margin: 0;
+  padding-top: 48px;
+}
+
+#nav_sidebar ul{
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#nav_sidebar img{
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+#nav_sidebar ul li{
+  padding: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10%;
+  margin: 0;
+}
+
+#nav_sidebar ul li:hover{
+  background: #677077;
+}
+
+#nav_sidebar ul a{
+  text-decoration: none;
+  width: 100%;
+  font-size: 14px;
+  color: #ebebeb;
+}
+
+.profile-pic{ 
+	height: 100%; 
+	max-width: 100px; 
+	height: auto;
+}
+
+.card-komunitas {
+  background: #b5b5b7;
+  width: 100%;
+  height: 130px;
+  color: #fff;
+  padding-left: 15%;
+  padding-top: 17%;
+  margin-bottom: 3%;
+}
+
+.card-event {
+  background: #677077;
+  width: 100%;
+  height: 130px;
+  color: #fff;
+  padding-left: 15%;
+  padding-top: 17%;
+  margin-bottom: 3%;
+}
+
+.card-pesan {
+  background: #252839;
+  width: 100%;
+  height: 130px;
+  color: #fff;
+  padding-left: 15%;
+  padding-top: 17%;
+  margin-bottom: 3%;
+}
